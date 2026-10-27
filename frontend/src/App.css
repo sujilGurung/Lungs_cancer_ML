@@ -1,0 +1,13 @@
+body { font-family: system-ui, sans-serif; background: #f5f7fa; margin: 0; }
+.wrap { max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+.muted { color: #667; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+label { display: flex; flex-direction: column; gap: .3rem; font-size: .9rem; }
+input[type=number], select { padding: .5rem; border: 1px solid #ccd; border-radius: 6px; }
+.checks { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .5rem; margin: 1.2rem 0; }
+.check { flex-direction: row; align-items: center; gap: .5rem; background: #fff; padding: .5rem .7rem; border-radius: 6px; border: 1px solid #e0e3ea; }
+button { padding: .7rem 1.6rem; border: 0; border-radius: 8px; background: #2b59ff; color: #fff; font-size: 1rem; cursor: pointer; }
+button:disabled { opacity: .6; }
+.result { margin-top: 1.5rem; padding: 1rem 1.2rem; border-radius: 10px; border-left: 6px solid; background: #fff; }
+.result.low { border-color: #2e9e5b; } .result.medium { border-color: #e0a100; } .result.high { border-color: #d63b3b; }
+.error { color: #d63b3b; }
